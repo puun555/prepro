@@ -17,7 +17,6 @@ for i in range(number):
             save = box[i]
             box[i] = box[k]
             box[k] = save
-     
 for i in range(number):
     if box[i][1] == box[1][1]:
         print("Name: %s, %s baht" %(box[i][0], box[i][1]))

@@ -1,6 +1,6 @@
-"""Pre-pro"""
+"""Suvarnabhumi Airport"""
 def main(timezone_1, timezone_2, mytime):
-    """Pre-pro"""
+    """Main PrePro"""
     meridiem = mytime[-2:]
     hour = int(mytime[0:2])
     minute = int(mytime[3:5])
